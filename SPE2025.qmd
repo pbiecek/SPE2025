@@ -93,24 +93,7 @@ There is tremendous potential in Machine Learning, but:
 - at this point we could discuss various examples of spectacular failures of ML for the next two hours.
 
 
-## What? 1/3
-
-**IrResponsible Machine Learning:** 
-
-1. Select a problem. 
-2. Optimize the predictive performance of a model on the test set. 
-3. Don't test anything else. 
-4. Jump to another problem. 
-
-**Responsible Machine Learning:** 
-
-1. Select a problem. 
-2. Optimize the predictive performance of a model on the test set. 
-3. Verify that the model has not accidentally learned artifacts present in the data. 
-4. Verify that it is consistent with domain knowledge. 
-5. Monitor the model, because the future is usually different from the training data.
-
-## What? 2/3
+## What? 1/2
 
 The purpose of this tutorial is to **present techniques for model exploration, visualisation and explanation**. To do this we will use some interesting real-world data, train a few models on the data and then use **XAI** (eXplainable artificial intelligence) techniques to explore these models. Along the way, we will tackle various interesting topics such as model training, model verification, model visualisation, model comparison and exploratory model analysis. 
 
@@ -120,7 +103,7 @@ In this tutorial we will work on three types of models, **logistic regression wi
 
 **Models will be explained and visualized with the `DALEX` package.** Note that there are also other packages with similar functionalities, for modelling other popular choices are `mlr`, `tidymodels` and `caret` while for the model explanation you will find lots of interesting features in `flashlight` and `iml`.
 
-## What? 3/3
+## What? 2/2
 
 :::: {.columns}
 
@@ -172,7 +155,7 @@ Why do we need such a model? It could have many applications! Those at higher ri
 ![ ](figures/rml_comic_01.png)
 
 
-## Who? - Let's get to know each other! 1/3
+## Who? - Let's get to know each other! 1/2
 
 :::: {.columns}
 
